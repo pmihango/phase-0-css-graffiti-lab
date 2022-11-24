@@ -1,9 +1,20 @@
 /* write your override styles here */
 .tag-1 {
   background: url(../images/tag-1.png) no-repeat;
+  background: url(../images/tag-2.png) no-repeat;
+  background: url(../images/tag-3.png) no-repeat;
+  background: url(../images/tag-4.png) no-repeat;
   z-index: 7;
-  display: block;
+  display:block;
 }
+
 #wall .tag-1 {
-  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 980px;
+  height: 622px;  
+  left:auto;
+  right:auto;
+  display:block;
 }
